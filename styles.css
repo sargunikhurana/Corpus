@@ -1,0 +1,25 @@
+/* Navbar background */
+.navbar {
+  background-color: #6a0dad !important;
+}
+
+/* Navbar text */
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white !important;
+}
+
+/* Hover effect */
+.navbar .nav-link:hover {
+  color: #d8b4fe !important;
+}
+
+/* Make all dashboard boxes (cards) have purple thicker borders */
+.quarto-dashboard .card {
+  border: 2px solid  #d8b4fe !important;  /* thickness + purple */
+  border-radius: 8px;                   /* optional: rounded corners */
+}
+
+.quarto-dashboard .card {
+  color: black;
+}
