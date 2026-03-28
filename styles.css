@@ -23,3 +23,27 @@
 .quarto-dashboard .card {
   color: black;
 }
+
+/* Reduce overall navbar height */
+.navbar {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  min-height: 50px;
+}
+
+/* Title (Computational Musicology Portfolio) */
+.navbar-brand {
+  font-size: 1.1rem;
+  padding: 0;
+}
+
+/* Your name under title */
+.navbar-title {
+  font-size: 0.9rem;
+}
+
+/* Navigation links (Background, Chroma, etc.) */
+.navbar-nav .nav-link {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.6rem;
+}
