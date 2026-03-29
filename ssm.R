@@ -48,7 +48,8 @@ glass_ssm <- glass_timbre |>
 horse_ssm <- horses_timbre |>
   compmus_wrangle_timbre() |> 
   filter(row_number() %% 50L == 0L) |> 
-  compmus_self_similarity(timbre, "angular") |> 
+  mutate(timbre = map(timbre, compmus_normalise, "euclidean")) |>
+  compmus_self_similarity(timbre, "cosine") |>
   ggplot(
     aes(
       x = xstart + xduration / 2,
