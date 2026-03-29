@@ -23,7 +23,7 @@ In the past year, I have been to 3 concerts. Due to the ever increasing prices o
   + 2) Carousel
   + 3) Broken Glass
 
-As I am investigating the reasons for my interest in hearing these albums in a concert, I chose the songs which I enjoyed listening to the most in the concert.
+As I am investigating the reasons for my interest in hearing these albums in a concert, I chose the songs which I enjoyed listening to the most in the concert. 
 
 With this corpus, my purpose is to investigate how similar or different my tastes are in regards to who I want to see in concert. I want to identify whether there are common features which may draw me to these albums.
 
@@ -184,7 +184,7 @@ In the end you can see a thick band of green and that corresponds to the last pa
 
 ## Row
 
-conlucsion, similarities, differences
+I had concluded before that I enjoy songs which have layered instruments and can give the 'live' feel. While this does lend to the timbre feature. I believe there is not exact pattern to be found here. As the choice of which instruments I tend to like, that is completely different across the songs. These songs vary from a rock feel to more of an orchestral one. Which are very different in terms of timbre. 
 
 # Tempo
 
@@ -194,30 +194,103 @@ conlucsion, similarities, differences
 ![](horses_dft.png){width=48%}
 ![](horses_act.png){width=48%}
 
-The blahblha lah shdjahdkajd
+For white horses, we can see that while both tempograms are clear. The ACT tempogram catches more tempo harmonics, and it is hard to interpret which is the actual tempo and which are the harmonics.
+
+In DFT, we can see that the tempo is around 150 bpm. It does make tempo 300 bpm the brightest, however that is just a tempo octave. 
+
+It is quite easy for the software to find a clear tempo pattern since there is a repetitive drum beat which is in 4/4. Which is also likely why DFT worked better than ACT.
 :::
 
 ::: {}
 ![](carousel_dft.png){width=48%}
 ![](carousel_act.png){width=48%}
 
-ahduefkanckanlckad
+In carousel, both DFT and ACT did not detect the tempo well at all. 
+
+Carousel does not have a clear steady beat and has more of an emphasis on melody and harmony, which would explain why it was hard for the software to detect a tempo.
+
+Because there is no stead beat, DFT fails completely. ACT does not fair much better, but at least shows possible tempos, albeit there are so many that one could not know where to start in interpreting.
+
+This might also be because Carousel is in the time signature 3/4, which combined with the many different orchestral instruments like piano and violin, which are playing different melodies simultaneously. This would make it quite hard to find tempo.
 :::
 
 ::: {}
 ![](glass_dft.png){width=48%}
 ![](glass_act.png){width=48%}
 
-hfaheodajediadj ajda
+In Broken Glass, DFT and ACT both do not detect anything for the majority of the song, up until the last 40 seconds.
+
+This is probably because most of the song just consists of Lizzy singing without much of a consistent rhythm or beat behind her vocals. The only 'beat' which could be used comes in the instrumental section (at the end) when the drums are introduced, which is when both DFT and ACT is able to accurately find a tempo.
 :::
 
 :::
 
-# Classification
+## Conclusion
 
-```{r}
-#| echo: false
-2 * 2
-```
+The actual tempo for the three songs are: *Broken Glass*- 139 bpm, *White Horses*- 146 bpm, *Carousel*- 146 bpm. So on average, I enjoy a little faster of a tempo.
 
-The `echo: false` option disables the printing of code (only output is displayed).
+
+
+# Classfication- Heatmap
+
+## Row
+
+On the basis of the track feature analysis, and listening experience as well. I expect *A Matter of Time* and *Older(and Wiser)* to be harder to tell apart. They are both more acoustic, similar in energy and in other features as well.
+
+I used the Random Forest algorithm for classification. This is because it performs quite well in most real world use cases. 
+
+## Row 
+
+### Column
+
+![](precision.png){width=300}
+
+Recall measures how many of the total true songs did the algorithm actually identify.
+
+Precision measures out of the songs which were marked as true, how many were actually true.
+
+From these numbers, we can see that it was hardest for Random Forest to be able to classify 'A matter of time' and easiest for 'The Clearing'.
+
+### Column
+
+![](heatplot.png)
+
+
+
+# Classification- Features
+
+## Row
+
+### Column
+
+![](feature_recommendation.png)
+
+### Column
+
+
+On the basis of the track features once more, I expect energy and acousticness to play the biggest role in identification of the albums.
+
+While these two did play a big role, so did loudness and interestingly speechiness. In hindsight, loudness was different between the three albums, however it is quite an unexpected conclusion that if would have such a big role. 
+
+Speechiness is one feature I did not expect at all, while initally doing the track feature analysis, it did not stand out necessarily and even while listening to the albums, there are barely any moments I would classify as speechy.
+However, it could be possible that the Spotify algorithm picks up the softer vocals like that in many songs of Lizzy Mcalpine's as speechy.
+
+## Conclusion
+
+This differentiation also sheds light on the fact that the albums are similar in features such as valence, danceability, tempo, etc. I can then conclude that it is these features which are the common thread of why I like these three albums. 
+
+Specifically danceability, instrumentalness and liveness being similar to each other gives a nice commonality as to why I specifically felt these albums were worth listening to in a concert. 
+
+# Conclusion
+
+Through this analysis, I realised that the songs that I chose were definitely not the most representative song of the albums themselves. Which does not pose as issue as I was analysing my tastes. 
+
+From *The Clearing* I ended up choosing one of the more musically simple songs in the album as was seen in the tempogram, chordogram, chromagram and timbre ssm.
+While it still had their signature sound.
+
+From *A Matter of Time* I chose one of the more 'playful' songs, which definitely has the fairytale-like sound. This is a harmonically complex song, with orchestral elements, all the while maintaining the simple pop-song structure. 
+
+From *Older(and Wiser)* I chose one of the more instrumentally dynamic songs. It has a heavier sound than her usual songs which are more melancholic and slow. This does still have the very emotional feel as her songs usually do. 
+
+Through this project I discovered that I enjoy songs which in a concert would leave me in awe in terms of instrumentation, which makes a lot of sense as I have always loved the instrumental parts of songs, and the orchestra as well. 
+In terms of the albums as a whole, 

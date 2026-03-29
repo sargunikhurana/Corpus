@@ -47,3 +47,11 @@
   font-size: 0.9rem;
   padding: 0.3rem 0.6rem;
 }
+
+.song-box {
+  border: 2px solid #d8b4fe;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: white;
+}
