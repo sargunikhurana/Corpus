@@ -10,7 +10,7 @@ format:
 
 # Background
 
-In the past year, I have been to 3 concerts. Due to the ever increasing prices of concert tickets, I choose to go to concerts of only those artists whose sound I like a lot. This portfolio is a comparison of the 3 artists whose concert I saw, and the albums they toured with.
+In the past year, I have been to 3 concerts. Due to the ever increasing prices of concert tickets, I choose to go to concerts of only those artists whose sound I like a lot. This portfolio is a comparison of the 3 artists whose concerts I saw, and the albums they toured with.
 
 * The 3 artists and albums are: 
   + 1) Wolf Alice- The Clearing
@@ -27,13 +27,13 @@ As I am investigating the reasons for my interest in hearing these albums in a c
 
 With this corpus, my purpose is to investigate how similar or different my tastes are in regards to who I want to see in concert. I want to identify whether there are common features which may draw me to these albums.
 
-My initial hypothesis is that there will be quite a lot of differences.
+My initial hypothesis is that there will be quite a lot of differences. This is because:
 
 I perceive Lizzy Mcalpine to have a slow and soothing sound. She writes more traditionally 'sad' songs, but as she is supported by a band, they are sometimes also quite instrument heavy. Laufey is known to combine Jazz, Pop and Classical music. I would describe her songs as more whimsical, as if you were in a fairytale. Wolf Alice is an alternative rock band, with more energetic songs than the other two.
 
 # Track Insights
 
-## Row {height=30%}
+## Row {height=20%}
 
 Laufey’s music is a mix of classical music, jazz and bedroom pop. Her music can range from sad and melancholic to a more playful sound. In my opinion, all her songs have a ‘fairytale’ sound to them, which may be due to the influences from ballet.
 
@@ -41,15 +41,15 @@ Lizzy Mcalpine dabbles majorly in the genre of Indie pop. Even though her latest
 
 Wolf Alice is an Indie/Alternative rock band. They are naturally more instrumental heavy, and more energetic than the other two as well. I would expect their songs to have more valence, energy and loudness.
 
-## Row {height=60%}
+## Row {height=70%}
 
 ### Column
 
 ![](boxplot_comparison.png)
 
-In this image we can see that indeed, acousticness in The Clearing is much lower than the other two and energy is much higher. An interesting result is that the danceability for all 3 albums are pretty similar, and the valence for 'Older' and 'AMAT' is similar. In both my experiences listening to the albums online and in the concert, there was a noticeable difference in those features.
+In this image we can see that indeed, acousticness in *The Clearing* is much lower than the other two and energy is much higher. An interesting result is that the danceability for all 3 albums are pretty similar, and the valence for *Older* and *AMAT* is similar. In both my experiences listening to the albums online and in the concert, there was a noticeable difference in those features.
 
-Older is almost entirely the type of album to which you would just sit down and listen. A matter of time has variety between 'danceable' songs and more slower songs. However, when listening it feels much more 'happy' than Older. Most of the songs in The Clearing were quite danceable songs.
+*Older* is almost entirely the type of album to which you would just sit down and listen. *AMAT* varies between 'danceable' songs and more slower songs. However, when listening it feels much more 'happy' than Older. Most of the songs in *The Clearing* were quite danceable songs.
 
 ### Column
 
@@ -59,7 +59,7 @@ In loudness, as expected, The Clearing is louder than the other two.
 
 ## Row {height=10%}
 
-Overall, we can see that the albums 'A matter of time' and 'Older and Wiser' tend to be more similar to each other, than either of them are to 'The Clearing'. If one were to listen to these albums, this is also quite clear sonically.
+Overall, we can see that the albums *A matter of time* and *Older(and Wiser)* tend to be more similar to each other, than either of them are to *The Clearing*. If one were to listen to these albums, this is also quite clear sonically.
 
 # Chroma
 
@@ -73,9 +73,9 @@ Chromagrams tells us which pitch classes are being played in the songs. In order
 
 ![](horse_chromagram.png) 
 
-In the chromagram we can see an almost continuous high magnitude for pitch classes G and D. I believe this is indicating the guitar. The guitarist plays a consistent riff throughout the song which is quite prominent. The only very noticeable gaps we see are around 80 seconds, 170 seconds, and 230 seconds which are the three parts of the song where the chorus is being sung. In these parts, since the vocals become much louder, and the guitar much softer, the software picks up on that instead.
+In the chromagram we can see an almost continuous high magnitude for pitch classes G and D. This is indicating the guitar. The guitarist plays a consistent riff throughout the song which is quite prominent. The only very noticeable gaps we see are around 80 seconds, 170 seconds, and 230 seconds which are the three parts of the song where the pre-chorus and chorus is being sung. In these parts, since the vocals become much louder, and the guitar much softer, the software picks up on that instead.
 
-In these parts we can see the pitch F being picked up, this is of the vocals in the chorus. Another interesting thing to note in the chorus, the vocals always go from Eb to F. During the lyrics, 'Know who I am..' she sings in Eb but starting from 'That's important to me..' she goes into F.
+In these parts we can see the pitch F being picked up, this is of the vocals in the chorus. Another interesting thing to note in the prechorus and chorus, the vocals always go from Eb to F. During the pre-chorus she sings in Eb but she sings the chorus in F. This can be seen in the chromagram.
 
 Finally, the parts where the C pitch suddenly has very high magnitude and then fades out, is where the bassist played just one C note, and then that note gradually fades out.
 
@@ -85,7 +85,7 @@ Finally, the parts where the C pitch suddenly has very high magnitude and then f
 
 In carousel, there is a repeating motif (a pattern using the notes D,E,F#, B) played with the Dmaj chord in a 4/4 rhythm on the piano while these notes are being played. This can be seen right at the start of the song up until around 10 seconds.
 
-At 10 seconds, we see that the the vocals start with the chord Dmaj still being played in the background, but the pattern of notes stop. Here, we can see the pitch class E have a higher magnitude, which is of Laufey's vocals.
+At 10 seconds, we see that the the vocals start while the chord Dmaj is still being played in the background, but the motif stops. Here, we can see the pitch class E have a higher magnitude, which is of Laufey's vocals.
 
 There is a similar repetition of what I have described above throughout the song.
 
@@ -117,17 +117,30 @@ However, it can also be seen that all the songs have one similarity: they all ma
 
 ## Row
 
+I used the Manhattan norm with Cosine distance.
+
+## Row
+
 ### Column
 
 ![](horses_cssm.png)
+
+Reinforcing the result seen in the chromagrams. This SSM shows that *White Horses* is relatively harmonically stable. 
+
+There is also a clear block pattern, which indicates a reptetive structure in the song. This is the verse and chorus structure that is seen, where the yellow lines indicate the prechorus and chorus together. 
 
 ### Column
 
 ![](carousel_cssm.png)
 
+*Carousel* on the other hand, is not as harmonically stable. The pattern in more complex and harder to interpret. However, we can still faintly see some criss-cross patterns around 50 seconds and 110 seconds. These correspond to the chorus. 
+
 ### Column
 
 ![](glass_cssm.png)
+*Broken Glass* is also harder to interpret, as it harmonically dynamic. We can see a few clear sections, such as in the top right, we can see the part where there is the instrumental break at the end.
+
+Around 40 seconds she starts singing in a higher pitch as well, where we can see a yellow cross line. 
 
 # Chords
 
@@ -139,15 +152,15 @@ However, it can also be seen that all the songs have one similarity: they all ma
 
 Here we can see that the horizontal bands corresponding to chords stay relatively stable throughout. This means it's a harmonically stable song. 
 
-The song follows a ABCABC structure. With verse1 then pre-chorus then chorus and then repeat. We can see for A the chords mainly correspond to G major and for the pre-chorus it's at C major and then A minor for the chorus. 
+The song follows a ABCABC structure. With verse1 then pre-chorus then chorus and then repeat. We can see for section A the chords mainly correspond to G major and for the pre-chorus it's at C major and then A minor for the chorus. 
 
-We can see this same pattern a few rows before and this would be because even those chords are being simultaneously played/ detected.
+We can see this same pattern a few rows below and this would be because even those chords are being simultaneously played/ detected.
 
 ### Column
 
 ![](carousel_chordogram.png)
 
-Carousel also shows a structured chord progression, there is a bit more variation than in White Horses, however it still is quite clear throughout. 
+Carousel also shows a structured chord progression, there is a bit more variation than in White Horses, however it is still is quite clear throughout. 
 
 The contrast that we do see is the verse, chorus, verse, chorus structure.
 So the verse is at A major and E minor. The chorus is played on the Dmaj7 chord. 
@@ -156,7 +169,7 @@ So the verse is at A major and E minor. The chorus is played on the Dmaj7 chord.
 
 ![](glass_chordogram.png)
 
-The chordogram for Broken Glass has the most variation between the three songs. This suggests more chord changes, but also the chordogram is not very stable, this may be due to the layered instruments. 
+The chordogram for Broken Glass has the most variation between the three songs. This suggests more chord changes, but also that the chordogram is not very stable, this may be due to the layered instruments. 
 
 We can once again see here the sudden change around 190 seconds, where we have the final instrumental section
 
@@ -164,7 +177,7 @@ We can once again see here the sudden change around 190 seconds, where we have t
 
 ## Row
 
-I used these specification
+I used the Euclidean norm with Cosine distance.
 
 ## Row
 
@@ -182,9 +195,9 @@ Most of the graph looks quite homogeneous. The only very clear "different" part 
 
 ![](carousel_ssm.png)
 
-Carousel lends quite a clear SSM for timbre. There are quite clear distinctions between the different homogeneous blocks. Most of the yellow cross lines correspond to when the piano motif (which I had talked about earlier) starts or when in goes back to the main melody of the song. 
+Carousel lends quite a clear SSM for timbre. There are quite clear distinctions between the different homogeneous blocks. Most of the yellow cross lines correspond to when the piano motif (which I had talked about earlier) starts. 
 
-Although there are quite a lot of instruments used throughout the song, they are used in a similar pattern throughout.
+Although there are quite a lot of instruments used throughout the song, they are used in a similar and repetitive pattern.
 
 ### Column
 
@@ -200,7 +213,7 @@ In the end you can see a thick band of green and that corresponds to the last pa
 
 ## Row
 
-I had concluded before that I enjoy songs which have layered instruments and can give the 'live' feel. While this does lend to the timbre feature. I believe there is not exact pattern to be found here. As the choice of which instruments I tend to like, that is completely different across the songs. These songs vary from a rock feel to more of an orchestral one. Which are very different in terms of timbre. 
+I had concluded before that I enjoy songs which have layered instruments and can give the 'live' feel. While this is represented within the timbre-related features, there is no overall pattern with regard to the types of sounds or instrumentation I prefer. The three pieces of music vary greatly, ranging from the raw sounds found in rock music to the more subtle sounds found in jazz and classical music.
 
 # Tempo
 
@@ -210,7 +223,7 @@ I had concluded before that I enjoy songs which have layered instruments and can
 ![](horses_dft.png){width=48%}
 ![](horses_act.png){width=48%}
 
-For white horses, we can see that while both tempograms are clear. The ACT tempogram catches more tempo harmonics, and it is hard to interpret which is the actual tempo and which are the harmonics.
+For white horses, we can see that while both tempograms are clear, the ACT tempogram catches more tempo harmonics, and it is hard to interpret which is the actual tempo and which are the harmonics.
 
 In DFT, we can see that the tempo is around 150 bpm. It does make tempo 300 bpm the brightest, however that is just a tempo octave. 
 
@@ -225,7 +238,7 @@ In carousel, both DFT and ACT did not detect the tempo well at all.
 
 Carousel does not have a clear steady beat and has more of an emphasis on melody and harmony, which would explain why it was hard for the software to detect a tempo.
 
-Because there is no stead beat, DFT fails completely. ACT does not fair much better, but at least shows possible tempos, albeit there are so many that one could not know where to start in interpreting.
+Because there is no steady beat, DFT fails completely. ACT does not fair much better, but at least shows possible tempos, albeit there are so many that one could not know where to start in interpreting.
 
 This might also be because Carousel is in the time signature 3/4, which combined with the many different orchestral instruments like piano and violin, which are playing different melodies simultaneously. This would make it quite hard to find tempo.
 :::
@@ -288,7 +301,7 @@ On the basis of the track features once more, I expected energy and acousticness
 
 While these two did play a big role, so did loudness and interestingly speechiness. In hindsight, loudness was different between the three albums, however it is quite an unexpected conclusion that if would have such a big role. 
 
-Speechiness is one feature I did not expect at all, while initally doing the track feature analysis, it did not stand out necessarily and even while listening to the albums, there are barely any moments I would classify as speechy.
+Speechiness is one feature I did not expect at all, while initally doing the track feature analysis, it did not stand out and even while listening to the albums, there are barely any moments I would classify as speechy.
 However, it could be possible that the Spotify algorithm picks up the softer vocals like that in many songs of Lizzy Mcalpine's as speechy.
 
 ## Conclusion
@@ -299,18 +312,18 @@ Specifically danceability, instrumentalness and liveness being similar to each o
 
 # Conclusion
 
-From this analysis, I have come to understand that my initial hypothesis that these three artists would be quite different was only partially true. This is because, although the three musical works differ considerably in their genres, timbres, and musical identities, they also have some musical features in common that may have influenced my preference for all of them in a live concert setting.
+From this analysis, I have come to understand that my initial hypothesis that these three artists would be quite different was only partially true. Although the three musical works differ considerably in their genres, timbres, and musical identities, they also have some musical features in common that may have influenced my preference to listen to them in a live setting. 
 
-From *The Clearing*, *A Matter of Time*, and *Older (And Wiser)*, it is evident that all three musical works focus on instrumentation, arrangement, and the sense of ‘liveness’ in their musical composition. However, this sense of ‘liveness’ is achieved in different ways in the three musical works. For Wolf Alice, this sense of ‘liveness’ is achieved through the rock sound, in Laufey's songs it is achieved through the orchestral and jazz sound, and in Lizzy McAlpine it is achieved through the band sound. Nonetheless, the fact that all three musical works have a specific way of harmonzing their instruments where they work in unison to create a special sound is definitely a common reason for my interest in hearing them live.
+It is clear that all three albums focus on instrumentation, arrangement, and the sense of ‘liveness’ in their musical composition. However, this sense of ‘liveness’ is achieved in different ways. For Wolf Alice, this sense of ‘liveness’ is achieved through the rock sound, in Laufey's songs it is achieved through the orchestral and jazz sound, and in Lizzy McAlpine it is achieved through the band sound. Nonetheless, it's the arrangement of their songs which attracts me to it.
 
-Moreover, it is evident that all three musical works have some musical features in common, including their danceability, tempo, and valence. This may also have been a reason why I have a relatively consistent musical taste, even though the genres of the three musical works differ considerably.
+Moreover, all three have some musical features in common, including their danceability, tempo, and valence. This may also have been a reason why I have a relatively consistent musical taste, even though the genres of the three musical works differ considerably.
 
-It is interesting to note, however, that *A Matter of Time* and *Older (and Wiser)* are similar to each other, while both are different from *The Clearing*, both in terms of their audio features and their structure. However, this similarity alone does not define my preferences. My preference is not necessarily about genre, but about variety within a certain framework. That is, while I enjoy variety within the genre, I still enjoy music with great instrumental presence and an engaging live atmosphere.
+It is interesting to note, however, that *A Matter of Time* and *Older (and Wiser)* are similar to each other, while both are different from *The Clearing*, both in terms of their audio features and their structure. However, in terms of my listening experience, I believe the band aspect of *Older* and *The Clearing* tie them together together as well.
 
-Finally, I realised that the songs which I chose were definitely not the most representative song of the albums themselves. 
+Through this analysis I realised that the songs which I chose were definitely not the most representative song of the albums themselves. 
 From *The Clearing* I ended up choosing one of the more musically simple songs in the album as was seen in the tempogram, chordogram, chromagram and timbre ssm. While it still had their signature sound.
 From *A Matter of Time* I chose one of the more 'playful' songs, which definitely has the fairytale-like sound. This is a harmonically complex song, with orchestral elements, all the while maintaining the simple pop-song structure. 
 From *Older(and Wiser)* I chose one of the more instrumentally dynamic songs. It has a heavier sound than her usual songs which are more melancholic and slow. This does still have the very emotional feel as her songs usually do. 
 
-However, regardless of this finding. I believe these songs were the best choices I could've made to reflect my personal preference, and captured very well why it is that I like each of these albums and artists.
+Nonetheless, I think that these pieces were relevant in representing my personal preferences. Rather than focusing on the entirety of each album, these songs showcase the particular elements that I find most appealing, such as the use of rich instrumentation and arrangements. They are effective in demonstrating why I find these artists appealing and why I find it valuable to experience their music in a live format.
 
