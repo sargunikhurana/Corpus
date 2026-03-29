@@ -33,7 +33,7 @@ I perceive Lizzy Mcalpine to have a slow and soothing sound. She writes more tra
 
 # Track Insights
 
-## Row
+## Row {height=30%}
 
 Laufey’s music is a mix of classical music, jazz and bedroom pop. Her music can range from sad and melancholic to a more playful sound. In my opinion, all her songs have a ‘fairytale’ sound to them, which may be due to the influences from ballet.
 
@@ -41,7 +41,7 @@ Lizzy Mcalpine dabbles majorly in the genre of Indie pop. Even though her latest
 
 Wolf Alice is an Indie/Alternative rock band. They are naturally more instrumental heavy, and more energetic than the other two as well. I would expect their songs to have more valence, energy and loudness.
 
-## Row
+## Row {height=60%}
 
 ### Column
 
@@ -57,7 +57,7 @@ Older is almost entirely the type of album to which you would just sit down and 
 
 In loudness, as expected, The Clearing is louder than the other two.
 
-## Row
+## Row {height=10%}
 
 Overall, we can see that the albums 'A matter of time' and 'Older and Wiser' tend to be more similar to each other, than either of them are to 'The Clearing'. If one were to listen to these albums, this is also quite clear sonically.
 
@@ -113,7 +113,23 @@ From the analysis of the chromagrams of these three songs, I see the same patter
 
 However, it can also be seen that all the songs have one similarity: they all make heavy use of instrumentation, though in different forms. Be it through the vocals and the subtle instrumentation or the heavy use of the drums and guitars, all the songs make heavy use of instrumentation. From this, I conclude that I tend to enjoy songs that make heavy use of instrumentation in a live setting. Hearing many instruments together creates a very powerful atmosphere, and gives concerts that distincly "live" and "real" feel
 
-# Chordogram
+# Chroma 2
+
+## Row
+
+### Column
+
+![](horses_cssm.png)
+
+### Column
+
+![](carousel_cssm.png)
+
+### Column
+
+![](glass_cssm.png)
+
+# Chords
 
 ## Row
 
@@ -268,7 +284,7 @@ From these numbers, we can see that it was hardest for Random Forest to be able 
 ### Column
 
 
-On the basis of the track features once more, I expect energy and acousticness to play the biggest role in identification of the albums.
+On the basis of the track features once more, I expected energy and acousticness to play the biggest role in identification of the albums.
 
 While these two did play a big role, so did loudness and interestingly speechiness. In hindsight, loudness was different between the three albums, however it is quite an unexpected conclusion that if would have such a big role. 
 
@@ -283,14 +299,18 @@ Specifically danceability, instrumentalness and liveness being similar to each o
 
 # Conclusion
 
-Through this analysis, I realised that the songs that I chose were definitely not the most representative song of the albums themselves. Which does not pose as issue as I was analysing my tastes. 
+From this analysis, I have come to understand that my initial hypothesis that these three artists would be quite different was only partially true. This is because, although the three musical works differ considerably in their genres, timbres, and musical identities, they also have some musical features in common that may have influenced my preference for all of them in a live concert setting.
 
-From *The Clearing* I ended up choosing one of the more musically simple songs in the album as was seen in the tempogram, chordogram, chromagram and timbre ssm.
-While it still had their signature sound.
+From *The Clearing*, *A Matter of Time*, and *Older (And Wiser)*, it is evident that all three musical works focus on instrumentation, arrangement, and the sense of ‘liveness’ in their musical composition. However, this sense of ‘liveness’ is achieved in different ways in the three musical works. For Wolf Alice, this sense of ‘liveness’ is achieved through the rock sound, in Laufey's songs it is achieved through the orchestral and jazz sound, and in Lizzy McAlpine it is achieved through the band sound. Nonetheless, the fact that all three musical works have a specific way of harmonzing their instruments where they work in unison to create a special sound is definitely a common reason for my interest in hearing them live.
 
+Moreover, it is evident that all three musical works have some musical features in common, including their danceability, tempo, and valence. This may also have been a reason why I have a relatively consistent musical taste, even though the genres of the three musical works differ considerably.
+
+It is interesting to note, however, that *A Matter of Time* and *Older (and Wiser)* are similar to each other, while both are different from *The Clearing*, both in terms of their audio features and their structure. However, this similarity alone does not define my preferences. My preference is not necessarily about genre, but about variety within a certain framework. That is, while I enjoy variety within the genre, I still enjoy music with great instrumental presence and an engaging live atmosphere.
+
+Finally, I realised that the songs which I chose were definitely not the most representative song of the albums themselves. 
+From *The Clearing* I ended up choosing one of the more musically simple songs in the album as was seen in the tempogram, chordogram, chromagram and timbre ssm. While it still had their signature sound.
 From *A Matter of Time* I chose one of the more 'playful' songs, which definitely has the fairytale-like sound. This is a harmonically complex song, with orchestral elements, all the while maintaining the simple pop-song structure. 
-
 From *Older(and Wiser)* I chose one of the more instrumentally dynamic songs. It has a heavier sound than her usual songs which are more melancholic and slow. This does still have the very emotional feel as her songs usually do. 
 
-Through this project I discovered that I enjoy songs which in a concert would leave me in awe in terms of instrumentation, which makes a lot of sense as I have always loved the instrumental parts of songs, and the orchestra as well. 
-In terms of the albums as a whole, 
+However, regardless of this finding. I believe these songs were the best choices I could've made to reflect my personal preference, and captured very well why it is that I like each of these albums and artists.
+

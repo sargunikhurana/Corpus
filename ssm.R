@@ -65,6 +65,66 @@ horse_ssm <- horses_timbre |>
   theme_classic() +
   labs(x = "", y = "", title= "Timbre SSM of 'White Horses'")
 
+carousel_cssm <- carousel_chroma |>
+  compmus_wrangle_chroma() |>  
+  filter(row_number() %% 50L == 0L) |> 
+  mutate(timbre = map(pitches, compmus_normalise, "manhattan")) |>
+  compmus_self_similarity(pitches, "cosine") |> 
+  ggplot(
+    aes(
+      x = xstart + xduration / 2,
+      width = 50 * xduration,
+      y = ystart + yduration / 2,
+      height = 50 * yduration,
+      fill = d
+    )
+  ) +
+  geom_tile() +
+  coord_fixed() +
+  scale_fill_viridis_c(guide = "none") +
+  theme_classic() +
+  labs(x = "", y = "", title= "Pitch SSM of 'Carousel'")
+
+glass_cssm <- glass_chroma |>
+  compmus_wrangle_chroma() |>  
+  filter(row_number() %% 50L == 0L) |> 
+  mutate(timbre = map(pitches, compmus_normalise, "manhattan")) |>
+  compmus_self_similarity(pitches, "cosine") |> 
+  ggplot(
+    aes(
+      x = xstart + xduration / 2,
+      width = 50 * xduration,
+      y = ystart + yduration / 2,
+      height = 50 * yduration,
+      fill = d
+    )
+  ) +
+  geom_tile() +
+  coord_fixed() +
+  scale_fill_viridis_c(guide = "none") +
+  theme_classic() +
+  labs(x = "", y = "", title= "Pitch SSM of 'Broken Glass'")
+
+horses_cssm <- horses_chroma |>
+  compmus_wrangle_chroma() |>  
+  filter(row_number() %% 50L == 0L) |> 
+  mutate(timbre = map(pitches, compmus_normalise, "manhattan")) |>
+  compmus_self_similarity(pitches, "cosine") |> 
+  ggplot(
+    aes(
+      x = xstart + xduration / 2,
+      width = 50 * xduration,
+      y = ystart + yduration / 2,
+      height = 50 * yduration,
+      fill = d
+    )
+  ) +
+  geom_tile() +
+  coord_fixed() +
+  scale_fill_viridis_c(guide = "none") +
+  theme_classic() +
+  labs(x = "", y = "", title= "Pitch SSM of 'White Horses'")
+
 
 mots_down <- mots_chromagram |> slice(seq(1, n(), by = 30))
 mots_down_timbre <- mots_cepstro |> slice(seq(1, n(), by = 60))
