@@ -113,6 +113,35 @@ From the analysis of the chromagrams of these three songs, I see the same patter
 
 However, it can also be seen that all the songs have one similarity: they all make heavy use of instrumentation, though in different forms. Be it through the vocals and the subtle instrumentation or the heavy use of the drums and guitars, all the songs make heavy use of instrumentation. From this, I conclude that I tend to enjoy songs that make heavy use of instrumentation in a live setting. Hearing many instruments together creates a very powerful atmosphere, and gives concerts that distinctly "live" and "real" feel.
 
+# Chroma 2
+
+
+## Row
+
+I used the Manhattan norm with Cosine distance.
+
+## Row
+
+### Column
+
+![](horses_cssm.png)
+
+Reinforcing the result seen in the chromagrams. This SSM shows that *White Horses* is relatively harmonically stable. 
+
+There is also a clear block pattern, which indicates a reptetive structure in the song. This is the verse and chorus structure that is seen, where the yellow lines indicate the prechorus and chorus together. 
+
+### Column
+
+![](carousel_cssm.png)
+
+*Carousel* on the other hand, is not as harmonically stable. The pattern in more complex and harder to interpret. However, we can still faintly see some criss-cross patterns around 50 seconds and 110 seconds. These correspond to the chorus. 
+
+### Column
+
+![](glass_cssm.png)
+*Broken Glass* is also harder to interpret, as it harmonically dynamic. We can see a few clear sections, such as in the top right, we can see the part where there is the instrumental break at the end.
+
+Around 40 seconds she starts singing in a higher pitch as well, where we can see a yellow cross line. 
 
 
 # Chords
